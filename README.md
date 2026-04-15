@@ -17,7 +17,7 @@ Rules
 - Decoders: Must produce 100% identical output across implementations.
 
 File Layout
-- Header: "YBR" (Must be valid or reject)
+- HeaderType: "YBR" (Must be valid or reject)
 - Pixel Stream (S)
 - SegmentSize (N)
 - Cdef Table
